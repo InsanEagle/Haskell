@@ -1,0 +1,59 @@
+------------------------------------------------------------------------------
+__   __ __  __  ____   ___      _________________________________________
+||   || ||  || ||  || ||__      Hugs 98: Based on the Haskell 98 standard
+||___|| ||__|| ||__||  __||     Copyright (c) 1994-2001
+||---||         ___||           World Wide Web: http://haskell.org/hugs
+||   ||                         Report bugs to: hugs-bugs@haskell.org
+||   || Version: Jan 2001 beta  _________________________________________
+
+------------------------------------------------------------------------------
+
+   We are pleased to announce a new beta release of Hugs98, a  
+   Haskell interpreter and programming environment for developing 
+   cool Haskell programs.  Sources and binaries are freely available
+   by anonymous FTP and on the World-Wide Web.
+
+   This release is largely conformant with Haskell 98, including
+   monad and record syntax, newtypes, strictness annotations, and
+   modules.  In addition, it comes packaged with the libraries defined
+   in the most recent version of the Haskell Library Report and with
+   extension libraries that are compatible with GHC 3.0 and later.
+
+   This is a beta release that aims at giving as many people as 
+   possible a chance to react to the changes and additions that have 
+   recently been incorporated.  A list of the most important new
+   features looks as follows:
+
+   - A Foreign Function Interface closely modelled after the one
+     provided by GHC.
+
+   - Built-in, Hood-like debugging support.
+ 
+   - A new syntax for recursive monad bindings.
+
+   - A new GUI under Windows that doesn't consume all CPU time.
+
+   See the release notes in the "docs" directory for more information
+   on some of these features.
+
+   Hugs is best used as a Haskell program development system: it boasts
+   extremely fast compilation, supports incremental compilation, and
+   has the convenience of an interactive interpreter (within which one
+   can move from module to module to test different portions of a
+   program).  However, being an interpreter, it does not nearly match
+   the run-time performance of, for example, GHC or HBC.
+
+   Send email to hugs-users-request@haskell.org to join the hugs-users
+   mailing list.  Bug reports should be sent to hugs-bugs@haskell.org.
+   Send email to hugs-bugs-request@haskell.org to subscribe to the
+   hugs-bugs list.
+
+   The home page for Hugs is at http://www.haskell.org/hugs.
+
+------------------------------------------------------------------------------
+ The Hugs 98 system is Copyright (c) Mark P Jones, Alastair Reid, the
+ Yale Haskell Group, and the Oregon Graduate Institute of Science and
+ Technology, 1994-2001, All rights reserved.  It is distributed as
+ free software under the license in the file "License", which is
+ included in the distribution.
+------------------------------------------------------------------------------
